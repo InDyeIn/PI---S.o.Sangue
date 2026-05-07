@@ -9,12 +9,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
     <link rel="stylesheet" href="css/loginstyles.css">
-    <!-- Google Fonts: Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-
-    <!-- Leaflet CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
         integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
     <title>Cadastro/Login</title>
@@ -22,18 +19,15 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <img src="img/icon2.png" alt="Logo do S.O.Sangue" style="height: 60px; margin-left: 20px;">
-            <a class="nav-link" href="index.html">Home</a>
-            <a class="nav-link" href="doe_agora_doador.html">Doe Agora</a>
-            <a class="nav-link" href="profile.html">Perfil</a>
-            <a class="nav-link" href="login.html">Login/Cadastro</a>
-            <a class="nav-link" href="loginHospital.html">Login/Cadastro Hospitalar</a>
-        </nav>
-    </header>
+    <nav>
+        <img src="img/icon2.png" alt="Logo do S.O.Sangue" style="height: 60px; margin-left: 20px;">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="doe_agora_doador.html">Doe Agora</a>
+        <a class="nav-link" href="profile.html">Perfil</a>
+        <a class="nav-link" href="login.html">Login/Cadastro</a>
+        <a class="nav-link" href="loginHospital.html">Login/Cadastro Hospitalar</a>
+    </nav>
     <main class="container mt-4 pt-4">
-        <!-- Modal de Termos -->
         <div class="modal fade" id="modalTermos" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                 <div class="modal-content">
@@ -83,10 +77,12 @@
         <div class="container">
             <ul class="nav nav-pills nav-justified mb-3" id="pills-tab" role="tablist">
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link active" id="pills-login-tab" data-bs-toggle="pill" data-bs-target="#login" type="button" role="tab">Login</button>
+                    <button class="nav-link active" id="pills-login-tab" data-bs-toggle="pill" data-bs-target="#login"
+                        type="button" role="tab">Login</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="pills-cadastro-tab" data-bs-toggle="pill" data-bs-target="#cadastro" type="button" role="tab">Cadastro</button>
+                    <button class="nav-link" id="pills-cadastro-tab" data-bs-toggle="pill" data-bs-target="#cadastro"
+                        type="button" role="tab">Cadastro</button>
                 </li>
             </ul>
 
@@ -287,8 +283,21 @@
         </div>
     </main>
     <footer>
-        <div class="container text-center fixed-bottom">
-            <p class="mb-0">&copy; 2026 S.O. Sangue. Todos os direitos reservados.</p>
+        <div class="row m-0 align-items-center">
+            <div class="col-12 col-md-6 text-center text-md-start mb-1 mb-md-0">
+                <p>&copy; S.O.Sangue, 2026</p>
+                <p>Telefone: (19) 9 1234-5678</p>
+                <p>E-mail: sosangue.2026@gmail.com</p>
+            </div>
+
+            <div class="col-12 col-md-6 text-center text-md-end">
+                <h6>Links da Página:</h6>
+                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link" href="doe_agora_doador.html">Doe Agora</a>
+                <a class="nav-link" href="profile.html">Perfil</a>
+                <a class="nav-link" href="login.html">Login/Cadastro</a>
+                <a class="nav-link" href="loginHospital.html">Login/Cadastro Hospitalar</a>
+            </div>
         </div>
     </footer>
     <!-- Scripts JS -->
