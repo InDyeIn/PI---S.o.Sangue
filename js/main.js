@@ -14,19 +14,13 @@ const hospitals = [
     { id: "campinas4", name: "Laboratório Fleury Campinas", lat: -22.8961, lng: -47.0528, needs: ["O-", "AB-"], address: "Av. Júlio de Mesquita, 923, Cambuí" },
     { id: "campinas5", name: "Laboratório Confiance – Taquaral", lat: -22.8856, lng: -47.0578, needs: ["A-", "B+"], address: "Av. Dr. Heitor Penteado, 1080, Taquaral" },
 
-    // Hortolândia
-    { id: "hortolandia1", name: "Laboratório DMS Burnier Hortolândia", lat: -22.8521, lng: -47.2115, needs: ["O+", "A+"], address: "Av. Olívio Franceschini, 530" },
-    { id: "hortolandia2", name: "Laboratório Samuel Pessoa", lat: -22.8884, lng: -47.2144, needs: ["AB-", "O-"], address: "R. Antônio Fernandes Leite, 123" },
-    { id: "hortolandia3", name: "Laboratório Sete Mais", lat: -22.8633, lng: -47.2189, needs: ["B+", "A-"], address: "R. 21 de Fevereiro, 33" },
-    { id: "hortolandia4", name: "Laboratório Confiance – Hortolândia", lat: -22.8598, lng: -47.2234, needs: ["O-", "A+"], address: "R. Carvalho Brasileiro, 665" },
-
+    // Indaiatuba
+    { id: "indaiatuba1", name: "PoCER – Posto de Coleta Externa Regular de Indaiatuba", lat: -23.118254761265714, lng: -47.234769974988524, needs: ["O+", "A+"], address: "Ambulatório de Especialidades da Morada do Sol Dr. Mário Paulo (Centro de Oncologia), Rua Hélio Pistoni, s/n, Jardim Morada do Sol." },
+    { id: "indaiatuba2", name: "FIEC – Fundação Indaiatubana de Educação e Cultura", lat: -23.0887, lng: -47.2186, needs: ["AB-", "O-"], address: "Av. Eng. Fábio Roberto Barnabé, 3405 - Jardim Regina, Indaiatuba - SP, 13349-003" },
+    
     // Sumaré
-    { id: "sumare1", name: "Laboratório Confiance – Sumaré Centro", lat: -22.8222, lng: -47.2688, needs: ["O-", "B-"], address: "R. Dom Barreto, 1754" },
-    { id: "sumare2", name: "Laboratório DMS Burnier Sumaré", lat: -22.8211, lng: -47.2655, needs: ["A+", "O+"], address: "R. José Maria Miranda, 1161" },
     { id: "sumare3", name: "Hemocentro Sumaré (Hospital Estadual)", lat: -22.8344, lng: -47.2344, needs: ["O-", "AB+", "A-"], address: "Av. da Amizade, 2400" },
-    { id: "sumare4", name: "Laboratório Rebouças", lat: -22.8233, lng: -47.2711, needs: ["B+", "O-"], address: "Praça Manoel de Vasconcelos, 502" },
-    { id: "sumare5", name: "Laboratório Microlab Diagnósticos", lat: -22.8244, lng: -47.2677, needs: ["A-", "AB-"], address: "R. Máximo Biondo, 186" }
-];
+    ];
 
 const markers = {};
 
