@@ -1,4 +1,4 @@
-Projeto S. O. Sangue
+Projeto: S. O. Sangue
 
 Integrantes: <br />
 Ana Clara Messias Pereira <br />
