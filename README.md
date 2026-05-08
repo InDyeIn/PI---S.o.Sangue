@@ -1,7 +1,7 @@
 Projeto S. O. Sangue
 
-Integrantes:
-Ana Clara Messias Pereira
-Ayumi Kusano Machia
-Tiago Maciel dos Santos
-Vinicius Viana Barbosa
+Integrantes: <br />
+Ana Clara Messias Pereira <br />
+Ayumi Kusano Machia <br />
+Tiago Maciel dos Santos <br /> 
+Vinicius Viana Barbosa<br />
